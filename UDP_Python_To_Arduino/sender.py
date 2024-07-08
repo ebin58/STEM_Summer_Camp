@@ -1,5 +1,7 @@
 """
-    Sends a message to port 8888
+    Sends a message to an ip address and port specific by the user
+    So far it is used to primarily to send commands to arduino
+
 """
 
 import keyboard
