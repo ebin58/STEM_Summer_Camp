@@ -2,6 +2,8 @@
     Sends a message to an ip address and port specific by the user
     So far it is used to primarily to send commands to arduino
     There is a corresponding Arduino File
+
+    Created by Ebin Sebastian on June 8th, 2024.
 """
 
 import keyboard
