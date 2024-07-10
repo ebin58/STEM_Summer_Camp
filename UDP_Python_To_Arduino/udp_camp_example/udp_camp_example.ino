@@ -9,8 +9,10 @@ int status = WL_IDLE_STATUS;
 
 //my_ip = "192.168.0.178"
 
-char ssid[] = "OAL_wireless";        // your network SSID (name)
-char pass[] = "83792151";    // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "Ebins_S23+";
+//"OAL_wireless";        // your network SSID (name)
+char pass[] = "ebinswifi";
+//"83792151";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 2390;      // local port to listen for UDP packets
