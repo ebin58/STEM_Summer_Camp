@@ -17,7 +17,7 @@ arduinoData = serial.Serial('COM6', 115200)
 
 # Check if at least one joystick is connected
 if pygame.joystick.get_count() > 0:
-    # Initializes the first joystick, its really the only joystick
+    # Initializes the first joystick, it's really the only joystick
     joystick = pygame.joystick.Joystick(0)
     joystick.init()
     print(f"Joystick initialized: {joystick.get_name()}")
