@@ -1,11 +1,11 @@
 import socket
 
 """
-This file is a basic sender file that sends messages to the ESP32 via UDP protocol
+This file is a basic sender file that send 
 """
 
 
-localIP = "192.168.0.128"
+localIP = "192.168.0.224"
 udpPort = 8888
 message = "Initiating connection..."
 
