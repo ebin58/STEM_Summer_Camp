@@ -4,6 +4,11 @@ import network
 import socket
 import time
 
+"""
+This file was made by Natalie but edited by Ebin.
+It is used to receive messages and if it receives the letter f, it will move the
+defined motor forward
+"""
 
 netwrk = 'STEM24'
 password = 'Testudo1!'
