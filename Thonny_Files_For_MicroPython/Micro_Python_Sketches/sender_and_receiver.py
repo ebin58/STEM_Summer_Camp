@@ -1,6 +1,10 @@
 import socket
 import threading
 
+"""
+This file is a sender file that sends messages to the ESP32. it will also receive messages as well
+Made by Ebin Sebastian
+"""
 def receive_messages(sock):
     while True:
         data, addr = sock.recvfrom(1024)
